@@ -1,0 +1,47 @@
+/*configuracoes gerais*/
+.container{
+	width: 100%;
+}
+body{
+	width: 100%;
+	
+}
+.dark, .navbar-dark{
+	background-color: rgba(0,0,0,0.50);
+}
+#navbarNavAltMarkup ul li a:hover{
+	color: #fff;
+}
+body {
+    /*background-color: black;*/
+    text-decoration: none;
+}
+#banner{
+	background-image: url("../imagens/imagem.png");
+	min-height: 500spx;
+	width: 100%;
+	height: 100%;
+
+}
+
+.recentes{
+	margin-bottom: 1%;
+}
+.caixa{
+	margin: 1%;
+}
+.miniaturas{
+	margin-bottom: 8%;
+}
+/* configuracoes das ids */
+
+.botoes{
+	margin: 1%;
+}
+
+#rodape{
+    background-color: black;
+    color:white;
+    padding: 10px;
+    padding-bottom: 5px;
+}
