@@ -414,12 +414,12 @@
             posicionarBolas();
             
             if(pont.body.position.x <= 30){
-                pont.body.velocity.x = 200;
+                pont.body.velocity.x = 300;
             }else if(pont.body.position.x >= 300){
-                pont.body.velocity.x = -200;
+                pont.body.velocity.x = -300;
             }
    
-            vLixo = pont.body.position.x * 6.5;
+            vLixo = pont.body.position.x * 6;
             if(selecionar == false){
                 tipoLixo = this.game.rnd.pick(tlixos); 
                 selecionar = true;
@@ -592,7 +592,6 @@
                 vida1.kill();
                 vida1 = "morto";
                 som.stop();
-                pont.body.velocity.x = 0;
                 var modal = document.querySelector('.modal-wrapper');
                 modal.style.display = "block";
                 document.getElementById("pontos").innerHTML = score;
